@@ -1,31 +1,36 @@
 # OSINT Toolkit CR
 
-Directorio curado de recursos de **Open Source Intelligence (OSINT)** para investigación, ciberseguridad, verificación digital y análisis de amenazas.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Link check](https://github.com/Echo506/osint-toolkit-cr/actions/workflows/link-check.yml/badge.svg)](../../actions)
 
-> Uso ético y legal: utiliza estas herramientas únicamente con autorización, fines académicos, defensa, investigación legítima y cumplimiento de la legislación aplicable.
+Directorio curado de herramientas y fuentes de **Open Source Intelligence (OSINT)** para ciberseguridad defensiva, investigación digital, verificación de información y análisis de infraestructura.
+
+> **Uso ético y legal:** este proyecto está destinado exclusivamente a fines educativos, investigación autorizada, respuesta a incidentes, defensa cibernética y cumplimiento normativo. No utilices los recursos para acosar, identificar, vigilar o acceder a información de terceros sin autorización.
 
 ## Categorías
 
-- [Motores de búsqueda](categories/search-engines.md)
-- [Personas y nombres de usuario](categories/people-usernames.md)
-- [Correos y dominios](categories/email-domains.md)
-- [Redes sociales](categories/social-media.md)
-- [Geolocalización y mapas](categories/geolocation-maps.md)
-- [Imágenes y video](categories/images-video.md)
-- [Inteligencia de amenazas](categories/threat-intelligence.md)
-- [Exposición y filtraciones](categories/breach-exposure.md)
-- [Dark web](categories/dark-web.md)
-- [Criptomonedas y blockchain](categories/crypto-blockchain.md)
-- [Recursos para Latinoamérica y Costa Rica](categories/latin-america-costa-rica.md)
+| Categoría | Alcance |
+|---|---|
+| [Búsqueda web](categories/busqueda-web.md) | Búsqueda avanzada, operadores y archivado web |
+| [Infraestructura](categories/infraestructura.md) | DNS, dominios, IP, ASN, certificados y servicios expuestos |
+| [Inteligencia de amenazas](categories/amenazas.md) | IOCs, reputación, malware y análisis de URLs |
+| [Geolocalización](categories/geolocalizacion.md) | Mapas, imágenes satelitales y verificación geográfica |
+| [Verificación multimedia](categories/verificacion-media.md) | Imágenes, video y verificación de contenido |
+| [Archivos y metadatos](categories/archivos-metadatos.md) | Hashes, metadatos, documentos y análisis forense básico |
+| [Costa Rica y Latinoamérica](categories/recursos-cr-latam.md) | Fuentes públicas, datos abiertos y recursos regionales |
 
-## Metodología
+## Documentación
 
-Consulta la [guía de metodología OSINT](docs/metodologia-osint.md) antes de realizar investigaciones.
+- [Metodología OSINT](docs/metodologia-osint.md)
+- [Consideraciones legales y éticas](docs/consideraciones-legales.md)
+- [Plantilla de reporte](docs/plantilla-reporte.md)
+- [Cómo contribuir](CONTRIBUTING.md)
+- [Política de seguridad](SECURITY.md)
 
-## Contribuciones
+## Principios
 
-Las contribuciones son bienvenidas. Lee [CONTRIBUTING.md](CONTRIBUTING.md) antes de abrir un Pull Request.
-
-## Licencia
-
-Este proyecto se distribuye bajo licencia MIT.
+- Verificar la información en más de una fuente.
+- Documentar fecha, hora, URL y evidencia obtenida.
+- Minimizar la recolección de datos personales.
+- Respetar términos de servicio, privacidad y legislación aplicable.
+- No ejecutar escaneos ni interactuar con activos sin autorización.
